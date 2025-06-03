@@ -1,0 +1,16 @@
+[project]
+name = "omniconsistency"
+description = "ComfyUI OmniConsistency Nodes is a collection of nodes for ComfyUI that allows you to load and use OmniConsistency models."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.1", "torchvision", "diffusers>=0.27.0", "transformers", "safetensors", "einops", "Pillow"]
+
+[project.urls]
+Repository = "https://github.com/lc03lc/Comfyui_OmniConsistency"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui_OmniConsistency"
+Icon = ""
+includes = []
